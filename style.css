@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: gb(255, 255, 255);
+}
+h2{
+    height: 20px;
+}
+
+header{
+    width: 100vw;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 4px 6px #232323;
+}
+header h1{
+    background-color: grey;
+    box-shadow: 0px 9px 15px 19px #232323;
+    border-radius: 20px;
+    padding: 2%;
+}
+.section_1{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    width: 40vw;
+    justify-content: center;
+    box-shadow: 0px 9px 25px 29px #232323;
+    border-radius: 20px;
+    float: left;
+    margin: 4%;
+}
+.section_1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.section_1 img {
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+
+.section_2{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    width: 40vw;
+    justify-content: center;
+    box-shadow: 0px 9px 25px 29px #232323;
+    border-radius: 20px;
+    float: left;
+    margin: 4%;
+    align-items: baseline;
+}
+.section_2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.section_2 img{
+    border-radius: 20px;
+}
+
+.section_3{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    width: 88vw;
+    height: 30vh;
+    justify-content: center;
+    box-shadow: 0px 9px 25px 29px #232323;
+    border-radius: 20px;
+    margin: 4%;
+    align-items: center;
+}
+.section_3 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Pascale{
+    height: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Pascale img{
+    margin-right: 5%;
+    border-radius: 20px;
+}
